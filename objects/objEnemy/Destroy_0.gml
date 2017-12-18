@@ -1,0 +1,1 @@
+objPlayer.currentExp += xpPoints;

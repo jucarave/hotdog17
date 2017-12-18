@@ -1,0 +1,3 @@
+scrPlayerControl();
+
+event_inherited();
