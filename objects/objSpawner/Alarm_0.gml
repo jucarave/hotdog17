@@ -23,6 +23,22 @@ if (dir != 0) {
 			time2 = 80
 			break;
 	}
+	
+	if (waitingToWin != noone) {
+		show_debug_message("Enemies left: " + string(waitingToWin));
+		
+		if (waitingToWin == 0) {
+			if (instance_number(objEnemy) == 0) {
+				room_goto(rooVictory);
+				exit;
+			} else {
+				alarm[0] = 1;
+				exit;
+			}
+		} else {
+			waitingToWin -= 1;
+		}
+	}
 		
 	var sausage = instance_create_layer(_x, objPlayer.y, "Instances", ins);
 		

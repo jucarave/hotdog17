@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1d5dec0f-54e5-4013-b051-cc59281a6505",
+            "Value": {
+                "id": "35eb0e2d-9dfe-4ca2-ada2-4983ef7bd731",
+                "resourcePath": "objects\\objVictoryScreen\\objVictoryScreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "23c24ec5-5590-44c9-9d6c-c0e7b5e41c9b",
             "Value": {
                 "id": "83019a12-427a-4d3f-bf57-3b7eb7f32559",
@@ -151,11 +159,27 @@
             }
         },
         {
+            "Key": "2a6590eb-38b6-4baf-91dd-42c65f90b320",
+            "Value": {
+                "id": "6072f9be-e27d-4bcf-95ff-c1b3a0c45b04",
+                "resourcePath": "rooms\\rooInit\\rooInit.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3028b24f-cb0b-490b-ad37-2e7314bfae4f",
             "Value": {
                 "id": "639df5d8-4971-4953-aacb-940d12e0fcca",
                 "resourcePath": "objects\\objEnemyInsane\\objEnemyInsane.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "365e71e6-63f8-43c9-acb6-d2d13b3cfaa5",
+            "Value": {
+                "id": "0ec431b3-ab13-4ad5-b1b8-3ba50c9c4781",
+                "resourcePath": "sprites\\bckVictory\\bckVictory.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -527,6 +551,14 @@
             }
         },
         {
+            "Key": "c29c3bdc-3771-4782-ab32-ea650a7c0758",
+            "Value": {
+                "id": "78aab7d0-e9a4-454f-990f-fa2840f9dddb",
+                "resourcePath": "rooms\\rooVictory\\rooVictory.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c5925122-6269-41cf-a260-c9c9850717de",
             "Value": {
                 "id": "600ba21d-53e9-4f20-afe7-bd9b2d9ed930",
@@ -547,6 +579,14 @@
             "Value": {
                 "id": "a68de56c-0355-457d-852b-3633cd7d001e",
                 "resourcePath": "objects\\objTimer\\objTimer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c96fd08b-dd4a-4ce2-882c-daac7150699b",
+            "Value": {
+                "id": "d96e49e1-2c0f-450c-91c4-0273447e7f23",
+                "resourcePath": "objects\\objGameTitle\\objGameTitle.yy",
                 "resourceType": "GMObject"
             }
         },

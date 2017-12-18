@@ -20,3 +20,5 @@ level = 0;
 currentExp = 0;
 nextExp = levelRamp[level];
 topping = toppings[level];
+
+global.HOT_DOGS_COUNT = 0;
