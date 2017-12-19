@@ -1,0 +1,1 @@
+music = audio_play_sound(mscRainingBits, 10, true);

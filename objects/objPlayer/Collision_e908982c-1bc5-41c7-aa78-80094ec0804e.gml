@@ -1,5 +1,6 @@
 if (abs(x - other.x) <= 4) {
 	scrHDReceiveDamage(other);
+	audio_play_sound(sndHit, 1, false);
 	
 	other.hp -= 1;
 	if (other.hp > 0) {

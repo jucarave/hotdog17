@@ -11,5 +11,11 @@ if (image_index >= 1) {
 		with (col) {
 			scrHDReceiveDamage(this);
 		}
+		
+		audioHit = audio_play_sound(sndHit, 1, false);
+	} else {
+		if (!audio_is_playing(audioHit)) {
+			audioHit = audio_play_sound(sndSwish, 1, false);
+		}
 	}
 }

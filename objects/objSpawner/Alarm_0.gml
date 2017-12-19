@@ -1,3 +1,5 @@
+if (!instance_exists(objPlayer)) { exit; }
+
 var dir = irandom_range(-1, 1);
 
 if (dir != 0) {
@@ -25,11 +27,9 @@ if (dir != 0) {
 	}
 	
 	if (waitingToWin != noone) {
-		show_debug_message("Enemies left: " + string(waitingToWin));
-		
 		if (waitingToWin == 0) {
 			if (instance_number(objEnemy) == 0) {
-				room_goto(rooVictory);
+				scrFadeToRoom(rooVictory , noone);
 				exit;
 			} else {
 				alarm[0] = 1;

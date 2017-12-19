@@ -1,6 +1,6 @@
-show_debug_message("LE difficult: " + string(difficult));
+if (!instance_exists(objPlayer)) { exit; }
+
 if (difficult == 3) {
-	show_debug_message("Enemies Remaining");
 	waitingToWin = 8;
 	exit;
 }

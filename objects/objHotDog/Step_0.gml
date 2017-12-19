@@ -1,3 +1,8 @@
+if (instance_exists(objFade)) {
+	sprite_index = sprBasicHDStand;
+	exit;
+}
+
 switch (state) {
 	case STATE_STAND:
 		scrHDControl();

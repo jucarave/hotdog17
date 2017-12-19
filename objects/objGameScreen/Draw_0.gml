@@ -1,3 +1,4 @@
+if (!instance_exists(objPlayer)){ exit; }
 var player = objPlayer;
 
 for (var i=0;i<player.hp;i++) {

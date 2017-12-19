@@ -16,3 +16,5 @@ timer = noone;
 collideWithWorld = false;
 
 topping = noone;
+
+audioHit = noone;

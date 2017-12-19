@@ -1,0 +1,1 @@
+scrFadeToRoom(rooInit, 1);

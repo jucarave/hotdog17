@@ -14,7 +14,7 @@ if (keyboard_check_pressed(ord("S"))) {
 
 if (keyboard_check_pressed(ord("K"))) {
 	if (cursor == 0) {
-		room_goto(rooGame);
+		scrFadeToRoom(rooGame, 1);
 	}else if (cursor == 1) {
 		game_end();
 	}

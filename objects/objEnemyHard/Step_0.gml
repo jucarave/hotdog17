@@ -1,3 +1,5 @@
+if (!instance_exists(objPlayer)) { exit; }
+
 if (state == STATE_DAMAGE) {
 	event_inherited();
 	exit;
